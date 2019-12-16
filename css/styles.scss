@@ -1,0 +1,46 @@
+/*------------------------Patrón de colores--------------------------*/
+$principal: #ff401c;
+$texto: #44484a;
+
+
+/*-------------Sobreescribiendp los estilos de bootstrap-------------*/
+.bg-primary {
+    background-color: $principal !important;
+}
+.text-primary {
+    color: $principal !important;
+}
+.btn-primary {
+    background-color: $principal !important;
+    border-color: darken($principal, 5%) !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: darken($principal, 10%) !important;
+}
+.btn-primary:active {
+    background-color: darken($principal, 15%) !important;
+}
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba($principal, .72) !important;
+}
+
+/*---------------------------Estilos del deseño----------------------*/
+html {
+    font-size: 13px;
+}
+body {
+    color:$texto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px #49505738;
+}
+
+/*--------------------SHOW DE LOS MEDIAS QUERIES---------------------*/
+@media (min-width: 768px){
+    html{
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/*------------------------Patrón de colores--------------------------*/
+/*-------------Sobreescribiendp los estilos de bootstrap-------------*/
+.bg-primary {
+  background-color: #ff401c !important;
+}
+
+.text-primary {
+  color: #ff401c !important;
+}
+
+.btn-primary {
+  background-color: #ff401c !important;
+  border-color: #ff2b03 !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #e82500 !important;
+}
+
+.btn-primary:active {
+  background-color: #cf2100 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 64, 28, 0.72) !important;
+}
+
+/*---------------------------Estilos del deseño----------------------*/
+html {
+  font-size: 13px;
+}
+
+body {
+  color: #44484a;
+  font-family: "Open Sans", sans-serif;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px #49505738;
+}
+
+/*--------------------SHOW DE LOS MEDIAS QUERIES---------------------*/
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
